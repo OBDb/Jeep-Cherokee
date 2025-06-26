@@ -1,10 +1,10 @@
 command_id: DB33.0114
 test_cases:
-- response: 18DAF110044114957B
-  expected_values:
+- expected_values:
     O2S11: 0.745
     SHRTFT11: -3.90625
-- response: 18DAF110044114A880
-  expected_values:
+  response: 18DAF110044114957B
+- expected_values:
     O2S11: 0.84
     SHRTFT11: 0
+  response: 18DAF110044114A880
