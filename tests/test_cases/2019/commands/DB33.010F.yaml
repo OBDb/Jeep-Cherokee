@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     IAT: 44
   response: 18DAF11003410F54
+- expected_values:
+    IAT: 49
+  response: 18DAF11003410F59
+- expected_values:
+    IAT: 50
+  response: 18DAF11003410F5A
+- expected_values:
+    IAT: 51
+  response: 18DAF11003410F5B
