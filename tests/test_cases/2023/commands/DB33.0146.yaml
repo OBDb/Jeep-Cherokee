@@ -4,5 +4,5 @@ test_cases:
     AAT: -14
   response: 18DAF1100341461A
 - expected_values:
-    AAT: 43
-  response: 18DAF11003414653
+    AAT: 59
+  response: 18DAF11003414663
