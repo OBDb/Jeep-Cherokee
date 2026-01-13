@@ -1,32 +1,11 @@
 command_id: DA30.30.220885
 test_cases:
 - expected_values:
+    JEEP_STEER_ANGLE: -695.7
+  response: 18DAF1300562088500F3
+- expected_values:
     JEEP_STEER_ANGLE: -692.4
   response: 18DAF130056208850114
 - expected_values:
-    JEEP_STEER_ANGLE: -598.3
-  response: 18DAF1300562088504C1
-- expected_values:
-    JEEP_STEER_ANGLE: -436
-  response: 18DAF130056208850B18
-- expected_values:
-    JEEP_STEER_ANGLE: 720
-  response: 18DAF13005620885FD9A
-- expected_values:
     JEEP_STEER_ANGLE: 720
   response: 18DAF13005620885FF3D
-- expected_values:
-    JEEP_STEER_ANGLE: 720
-  response: 18DAF13005620885FF95
-- expected_values:
-    JEEP_STEER_ANGLE: 720
-  response: 18DAF13005620885FFA2
-- expected_values:
-    JEEP_STEER_ANGLE: 720
-  response: 18DAF13005620885FFD7
-- expected_values:
-    JEEP_STEER_ANGLE: 720
-  response: 18DAF13005620885FFED
-- expected_values:
-    JEEP_STEER_ANGLE: 720
-  response: 18DAF13005620885FFEF

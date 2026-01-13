@@ -13,6 +13,14 @@ test_cases:
     JEEP_GEAR_DESIRED: 3
   response: 18DAF1180462051A32
 - expected_values:
+    JEEP_GEAR_CURRENT: 3
+    JEEP_GEAR_DESIRED: 3
+  response: 18DAF1180462051A33
+- expected_values:
+    JEEP_GEAR_CURRENT: 3
+    JEEP_GEAR_DESIRED: 4
+  response: 18DAF1180462051A43
+- expected_values:
     JEEP_GEAR_CURRENT: 4
     JEEP_GEAR_DESIRED: 4
   response: 18DAF1180462051A44
