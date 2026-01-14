@@ -4,11 +4,11 @@ test_cases:
     JEEP_STEER_ANGLE: -717.6
   response: 18DAF130056208850018
 - expected_values:
-    JEEP_STEER_ANGLE: -695.7
-  response: 18DAF1300562088500F3
-- expected_values:
-    JEEP_STEER_ANGLE: -692.4
-  response: 18DAF130056208850114
+    JEEP_STEER_ANGLE: -463.4
+  response: 18DAF130056208850A06
 - expected_values:
     JEEP_STEER_ANGLE: 720
   response: 18DAF13005620885FF3D
+- expected_values:
+    JEEP_STEER_ANGLE: 720
+  response: 18DAF13005620885FFFD
