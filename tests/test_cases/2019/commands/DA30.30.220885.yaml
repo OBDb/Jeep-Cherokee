@@ -5,7 +5,7 @@ test_cases:
   response: 18DAF130056208850000
 - expected_values:
     JEEP_STEER_ANGLE: 720
-  response: 18DAF13005620885FF85
+  response: 18DAF13005620885FF05
 - expected_values:
     JEEP_STEER_ANGLE: 720
-  response: 18DAF13005620885FFFA
+  response: 18DAF13005620885FFFF
