@@ -5,7 +5,7 @@ test_cases:
   response: 18DAF11805622B1B0000
 - expected_values:
     JEEP_WSS_RR: 300
-  response: 18DAF11805622B1B1EEB
+  response: 18DAF11805622B1B1DFD
 - expected_values:
     JEEP_WSS_RR: 300
-  response: 18DAF11805622B1B1F55
+  response: 18DAF11805622B1B2027
