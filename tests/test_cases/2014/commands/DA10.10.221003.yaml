@@ -1,0 +1,5 @@
+command_id: DA10.10.221003
+test_cases:
+- expected_values:
+    JEEP_ECT_ECU: -40
+  response: 18DAF110056210030000
