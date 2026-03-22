@@ -4,8 +4,8 @@ test_cases:
     JEEP_GEARBOX_RPM: 0
   response: 18DAF118056221020000
 - expected_values:
-    JEEP_GEARBOX_RPM: 1533
-  response: 18DAF1180562210217F4
+    JEEP_GEARBOX_RPM: 703
+  response: 18DAF118056221020AFC
 - expected_values:
     JEEP_GEARBOX_RPM: 2600
   response: 18DAF1180562210228A0
