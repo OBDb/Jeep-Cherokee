@@ -1,0 +1,11 @@
+command_id: DA18.18.221018
+test_cases:
+- expected_values:
+    JEEP_TCM_TORQUE: -30
+  response: 18DAF1180562101801D6
+- expected_values:
+    JEEP_TCM_TORQUE: 7
+  response: 18DAF1180562101801FB
+- expected_values:
+    JEEP_TCM_TORQUE: 14
+  response: 18DAF118056210180202

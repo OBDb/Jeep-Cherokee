@@ -1,0 +1,5 @@
+command_id: DA10.10.22194F
+test_cases:
+- expected_values:
+    JEEP_OIL_PUMP: 0
+  response: 18DAF1100462194F00
