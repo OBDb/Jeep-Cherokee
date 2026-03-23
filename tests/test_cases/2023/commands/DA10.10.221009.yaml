@@ -1,0 +1,5 @@
+command_id: DA10.10.221009
+test_cases:
+- expected_values:
+    JEEP_WATER_FUEL_DIST: 0
+  response: 18DAF110056210090000
