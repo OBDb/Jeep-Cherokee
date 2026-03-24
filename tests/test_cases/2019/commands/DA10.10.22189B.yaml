@@ -1,0 +1,5 @@
+command_id: DA10.10.22189B
+test_cases:
+- expected_values:
+    JEEP_SWIRL_CMD: -100
+  response: 18DAF1100562189B0000
