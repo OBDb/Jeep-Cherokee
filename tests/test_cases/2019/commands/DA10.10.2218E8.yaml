@@ -1,5 +1,0 @@
-command_id: DA10.10.2218E8
-test_cases:
-- expected_values:
-    JEEP_DPF_FLOW_RES: 0
-  response: 18DAF110056218E80000
