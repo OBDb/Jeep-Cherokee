@@ -1,0 +1,11 @@
+command_id: DA18.18.2204FE
+test_cases:
+- expected_values:
+    JEEP_ATF_T_4THGEN: 21
+  response: 18DAF118046204FE3D
+- expected_values:
+    JEEP_ATF_T_4THGEN: 22
+  response: 18DAF118046204FE3E
+- expected_values:
+    JEEP_ATF_T_4THGEN: 23
+  response: 18DAF118046204FE3F

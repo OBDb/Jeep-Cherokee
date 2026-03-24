@@ -1,0 +1,26 @@
+command_id: DA18.18.222102
+test_cases:
+- expected_values:
+    JEEP_GEARBOX_RPM: 707
+  response: 18DAF118056221020B0C
+- expected_values:
+    JEEP_GEARBOX_RPM: 709
+  response: 18DAF118056221020B14
+- expected_values:
+    JEEP_GEARBOX_RPM: 712
+  response: 18DAF118056221020B20
+- expected_values:
+    JEEP_GEARBOX_RPM: 713
+  response: 18DAF118056221020B24
+- expected_values:
+    JEEP_GEARBOX_RPM: 714
+  response: 18DAF118056221020B28
+- expected_values:
+    JEEP_GEARBOX_RPM: 715
+  response: 18DAF118056221020B2C
+- expected_values:
+    JEEP_GEARBOX_RPM: 716
+  response: 18DAF118056221020B30
+- expected_values:
+    JEEP_GEARBOX_RPM: 1071
+  response: 18DAF1180562210210BC
