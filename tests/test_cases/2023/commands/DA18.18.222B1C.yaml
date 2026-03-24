@@ -8,4 +8,4 @@ test_cases:
   response: 18DAF11805622B1C34FE
 - expected_values:
     JEEP_WSS_RL: 300
-  response: 18DAF11805622B1C39F8
+  response: 18DAF11805622B1C3B91
