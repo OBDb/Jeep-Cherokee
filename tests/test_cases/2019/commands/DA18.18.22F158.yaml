@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JEEP_MODEL_YEAR: 2019
   response: 18DAF1180762F15813510802
+- expected_values:
+    JEEP_MODEL_YEAR: 2019
+  response: 18DAF1180762F15813510804
