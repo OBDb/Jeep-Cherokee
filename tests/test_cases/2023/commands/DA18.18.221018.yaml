@@ -7,5 +7,5 @@ test_cases:
     JEEP_TCM_TORQUE: 11
   response: 18DAF1180562101801FF
 - expected_values:
-    JEEP_TCM_TORQUE: 13
-  response: 18DAF118056210180201
+    JEEP_TCM_TORQUE: 12
+  response: 18DAF118056210180200
