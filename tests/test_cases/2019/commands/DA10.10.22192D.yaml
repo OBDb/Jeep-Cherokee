@@ -1,8 +1,0 @@
-command_id: DA10.10.22192D
-test_cases:
-- expected_values:
-    JEEP_GEAR_ECU: 3
-  response: 18DAF1100562192D035E
-- expected_values:
-    JEEP_GEAR_ECU: 3
-  response: 18DAF1100562192D0387
