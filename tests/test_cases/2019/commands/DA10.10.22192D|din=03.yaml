@@ -6,3 +6,15 @@ test_cases:
 - expected_values:
     JEEP_GEAR_ECU: 3
   response: 18DAF1100562192D0387
+- expected_values:
+    JEEP_GEAR_ECU: 3
+  response: 18DAF1100562192D039B
+- expected_values:
+    JEEP_GEAR_ECU: 3
+  response: 18DAF1100562192D03A5
+- expected_values:
+    JEEP_GEAR_ECU: 3
+  response: 18DAF1100562192D03B0
+- expected_values:
+    JEEP_GEAR_ECU: 3
+  response: 18DAF1100562192D03BA
