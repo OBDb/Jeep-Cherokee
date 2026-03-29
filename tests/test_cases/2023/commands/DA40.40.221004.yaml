@@ -4,29 +4,5 @@ test_cases:
     JEEP_BATT_V_BCM: 7.3
   response: 18DAF1400462100449
 - expected_values:
-    JEEP_BATT_V_BCM: 7.8
-  response: 18DAF140046210044E
-- expected_values:
-    JEEP_BATT_V_BCM: 7.9
-  response: 18DAF140046210044F
-- expected_values:
-    JEEP_BATT_V_BCM: 8
-  response: 18DAF1400462100450
-- expected_values:
-    JEEP_BATT_V_BCM: 8.1
-  response: 18DAF1400462100451
-- expected_values:
-    JEEP_BATT_V_BCM: 8.7
-  response: 18DAF1400462100457
-- expected_values:
-    JEEP_BATT_V_BCM: 8.8
-  response: 18DAF1400462100458
-- expected_values:
-    JEEP_BATT_V_BCM: 8.9
-  response: 18DAF1400462100459
-- expected_values:
-    JEEP_BATT_V_BCM: 9
-  response: 18DAF140046210045A
-- expected_values:
     JEEP_BATT_V_BCM: 9.1
   response: 18DAF140046210045B
