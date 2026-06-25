@@ -1,0 +1,23 @@
+command_id: DA18.18.222B1D
+test_cases:
+- expected_values:
+    JEEP_WSS_FR: 0
+  response: 18DAF11805622B1D0000
+- expected_values:
+    JEEP_WSS_FR: 300
+  response: 18DAF11805622B1D0943
+- expected_values:
+    JEEP_WSS_FR: 300
+  response: 18DAF11805622B1D17D7
+- expected_values:
+    JEEP_WSS_FR: 300
+  response: 18DAF11805622B1D1FC1
+- expected_values:
+    JEEP_WSS_FR: 300
+  response: 18DAF11805622B1D2583
+- expected_values:
+    JEEP_WSS_FR: 300
+  response: 18DAF11805622B1D26A6
+- expected_values:
+    JEEP_WSS_FR: 300
+  response: 18DAF11805622B1D2831
