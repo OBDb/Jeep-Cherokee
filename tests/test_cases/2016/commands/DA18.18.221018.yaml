@@ -1,0 +1,29 @@
+command_id: DA18.18.221018
+test_cases:
+- expected_values:
+    JEEP_TCM_TORQUE: -35
+  response: 18DAF1180562101801D1
+- expected_values:
+    JEEP_TCM_TORQUE: -5
+  response: 18DAF1180562101801EF
+- expected_values:
+    JEEP_TCM_TORQUE: -4
+  response: 18DAF1180562101801F0
+- expected_values:
+    JEEP_TCM_TORQUE: -3
+  response: 18DAF1180562101801F1
+- expected_values:
+    JEEP_TCM_TORQUE: -1
+  response: 18DAF1180562101801F3
+- expected_values:
+    JEEP_TCM_TORQUE: 2
+  response: 18DAF1180562101801F6
+- expected_values:
+    JEEP_TCM_TORQUE: 109
+  response: 18DAF118056210180261
+- expected_values:
+    JEEP_TCM_TORQUE: 157
+  response: 18DAF118056210180291
+- expected_values:
+    JEEP_TCM_TORQUE: 175
+  response: 18DAF1180562101802A3

@@ -1,6 +1,12 @@
 command_id: DA18.18.222024
 test_cases:
 - expected_values:
+    JEEP_TIRE_SIZE: 3251
+  response: |-
+    18DAF1181010622024105102
+    18DAF118210808AC00000CB3
+    18DAF1182243CD00AAAAAAAA
+- expected_values:
     JEEP_TIRE_SIZE: 3517
   response: |-
     18DAF1181010622024105102
