@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JEEP_ENGINE_STATUS: 0
   response: 18DAF110056210020000
+- expected_values:
+    JEEP_ENGINE_STATUS: 1110
+  response: 18DAF110056210020456
