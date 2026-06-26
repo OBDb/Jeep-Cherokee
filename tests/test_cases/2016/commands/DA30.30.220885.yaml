@@ -1,8 +1,8 @@
 command_id: DA30.30.220885
 test_cases:
 - expected_values:
-    JEEP_STEER_ANGLE: -718.5
-  response: 18DAF13005620885000F
+    JEEP_STEER_ANGLE: -720
+  response: 18DAF130056208850000
 - expected_values:
     JEEP_STEER_ANGLE: 720
   response: 18DAF13005620885F8FE
