@@ -1,0 +1,5 @@
+command_id: DA10.10.2218EC|din=03
+test_cases:
+- expected_values:
+    JEEP_FORCED_REGEN: 0
+  response: 18DAF110056218EC0000
