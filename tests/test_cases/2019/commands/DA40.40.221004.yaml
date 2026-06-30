@@ -7,6 +7,9 @@ test_cases:
     JEEP_BATT_V_BCM: 8.1
   response: 18DAF1400462100451
 - expected_values:
+    JEEP_BATT_V_BCM: 8.6
+  response: 18DAF1400462100456
+- expected_values:
     JEEP_BATT_V_BCM: 8.7
   response: 18DAF1400462100457
 - expected_values:
