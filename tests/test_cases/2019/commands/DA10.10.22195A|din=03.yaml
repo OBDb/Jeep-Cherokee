@@ -1,0 +1,5 @@
+command_id: DA10.10.22195A|din=03
+test_cases:
+- expected_values:
+    JEEP_BOOST: -100
+  response: 18DAF1100562195A0000
