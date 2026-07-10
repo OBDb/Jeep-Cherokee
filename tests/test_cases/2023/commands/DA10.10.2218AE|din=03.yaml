@@ -1,0 +1,5 @@
+command_id: DA10.10.2218AE|din=03
+test_cases:
+- expected_values:
+    JEEP_REGEN_CONSEC_INTERRUPTED: 0
+  response: 18DAF110056218AE0000
