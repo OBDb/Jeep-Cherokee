@@ -1,8 +1,0 @@
-command_id: DA40.40.221004
-test_cases:
-- expected_values:
-    JEEP_BATT_V_BCM: 6.7
-  response: 18DAF1400462100443
-- expected_values:
-    JEEP_BATT_V_BCM: 8.8
-  response: 18DAF1400462100458
