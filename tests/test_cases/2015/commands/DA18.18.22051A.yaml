@@ -1,6 +1,5 @@
 command_id: DA18.18.22051A
 test_cases:
 - expected_values:
-    JEEP_GEAR_CURRENT: 12
-    JEEP_GEAR_DESIRED: 12
+    CHEROKEE_GEAR_RAW_CNT: 204
   response: 18DAF1180462051ACC
