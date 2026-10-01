@@ -1,11 +1,11 @@
 command_id: DA18.18.222B1D
 test_cases:
 - expected_values:
-    JEEP_WSS_FR: 0
+    CHEROKEE_WSS_FR: 0
   response: 18DAF11805622B1D0000
 - expected_values:
-    JEEP_WSS_FR: 300
+    CHEROKEE_WSS_FR: 1791
   response: 18DAF11805622B1D06FF
 - expected_values:
-    JEEP_WSS_FR: 300
+    CHEROKEE_WSS_FR: 17413
   response: 18DAF11805622B1D4405
