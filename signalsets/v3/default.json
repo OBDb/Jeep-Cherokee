@@ -1,4 +1,8 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "DA10", "type": "engine" },
+    { "hdr": "DA18", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0165"}, "freq": 1, "filter": { "to": 2013 },
   "signals": [
     {"id": "CHEROKEE_FUEL_TEMEPRATURE", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.14, "unit": "celsius" }, "name": "Fuel temperature"}
