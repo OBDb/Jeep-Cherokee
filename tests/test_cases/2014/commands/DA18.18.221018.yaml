@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     CHEROKEE_TCM_TORQUE: 12
   response: 18DAF118056210180200
+- expected_values:
+    CHEROKEE_TCM_TORQUE: 366
+  response: 18DAF118056210180362
