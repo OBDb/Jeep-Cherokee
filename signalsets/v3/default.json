@@ -202,7 +202,8 @@
   ]},
 { "hdr": "DA18", "rax": "18", "cmd": {"22": "051A"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2017, 2021, 2022] },
   "signals": [
-    {"id": "CHEROKEE_GEAR_RAW_CNT", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear, raw count"}
+    {"id": "CHEROKEE_GEAR_DESIRED", "path": "Transmission", "fmt": {          "len": 4, "max": 15, "unit": "scalar" }, "name": "Desired gear"},
+    {"id": "CHEROKEE_GEAR_CURRENT", "path": "Transmission", "fmt": {"bix": 4, "len": 4, "max": 15, "unit": "scalar" }, "name": "Current gear"}
   ]},
 { "hdr": "DA18", "rax": "18", "cmd": {"22": "1018"}, "freq": 2, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2020, 2021, 2022] },
   "signals": [
@@ -251,7 +252,7 @@
   ]},
 { "hdr": "DA40", "rax": "40", "cmd": {"22": "1004"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2020, 2021, 2022] },
   "signals": [
-    {"id": "CHEROKEE_BATT_V_BCM", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "volts" }, "name": "Battery voltage, body computer", "suggestedMetric": "starterBatteryVoltage"}
+    {"id": "CHEROKEE_BATT_V_BCM", "path": "Battery", "fmt": { "len": 8, "max": 40.8, "mul": 16, "div": 100, "unit": "volts" }, "name": "Battery voltage, body computer", "suggestedMetric": "starterBatteryVoltage"}
   ]},
 { "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0123"}, "freq": 86400, "dbgfilter": { "to": 2013, "years": [2017, 2021, 2022] },
   "signals": [
