@@ -1,8 +1,8 @@
 command_id: DA40.40.221004
 test_cases:
 - expected_values:
-    CHEROKEE_BATT_V_BCM: 13.4
+    CHEROKEE_BATT_V_BCM: 10.72
   response: 18DAF1400462100443
 - expected_values:
-    CHEROKEE_BATT_V_BCM: 17.6
+    CHEROKEE_BATT_V_BCM: 14.08
   response: 18DAF1400462100458
