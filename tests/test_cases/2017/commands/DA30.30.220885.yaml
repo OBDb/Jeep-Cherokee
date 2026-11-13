@@ -1,0 +1,5 @@
+command_id: DA30.30.220885
+test_cases:
+- expected_values:
+    CHEROKEE_STEER_ANGLE: 720
+  response: 18DAF13005620885FFD5

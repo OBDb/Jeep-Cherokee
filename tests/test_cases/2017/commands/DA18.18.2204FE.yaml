@@ -1,0 +1,5 @@
+command_id: DA18.18.2204FE
+test_cases:
+- expected_values:
+    CHEROKEE_ATF_T: 65
+  response: 18DAF118046204FE69

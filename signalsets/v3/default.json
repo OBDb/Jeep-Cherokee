@@ -120,11 +120,11 @@
   "signals": [
     {"id": "CHEROKEE_RPM", "path": "Engine", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "rpm" }, "name": "Engine RPM"}
   ]},
-{ "hdr": "DA10", "rax": "10", "din": "03", "cmd": {"22": "1002"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2020, 2021, 2022] },
+{ "hdr": "DA10", "rax": "10", "din": "03", "cmd": {"22": "1002"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2020, 2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_ENGINE_STATUS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine operational status"}
   ]},
-{ "hdr": "DA10", "rax": "10", "din": "03", "cmd": {"22": "1003"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2020, 2021, 2022] },
+{ "hdr": "DA10", "rax": "10", "din": "03", "cmd": {"22": "1003"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2020, 2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_ECT_ECU", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "mul": 2, "div": 100, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Coolant temperature"}
   ]},
@@ -132,7 +132,7 @@
   "signals": [
     {"id": "CHEROKEE_VSS_ECU", "path": "Movement", "fmt": { "len": 16, "max": 300, "unit": "kilometersPerHour" }, "name": "Vehicle speed, engine computer", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "DA10", "rax": "10", "din": "03", "cmd": {"22": "192D"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022] },
+{ "hdr": "DA10", "rax": "10", "din": "03", "cmd": {"22": "192D"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2020, 2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_GEAR_ECU", "path": "Transmission", "fmt": { "len": 8, "max": 9, "unit": "scalar" }, "name": "Gear engaged"}
   ]},
@@ -144,11 +144,11 @@
   "signals": [
     {"id": "CHEROKEE_MAF_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "mul": 2, "div": 100, "add": -40, "unit": "celsius" }, "name": "Mass airflow sensor temperature"}
   ]},
-{ "hdr": "DA10", "rax": "10", "din": "03", "cmd": {"22": "194F"}, "freq": 30, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022] },
+{ "hdr": "DA10", "rax": "10", "din": "03", "cmd": {"22": "194F"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2018, 2020, 2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_OIL_PUMP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Variable oil pump position"}
   ]},
-{ "hdr": "DA10", "rax": "10", "din": "03", "cmd": {"22": "1955"}, "freq": 30, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022] },
+{ "hdr": "DA10", "rax": "10", "din": "03", "cmd": {"22": "1955"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2018, 2020, 2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_BATT_V_ECU", "path": "Battery", "fmt": { "len": 16, "max": 20, "div": 2000, "unit": "volts" }, "name": "Battery voltage"}
   ]},
@@ -196,47 +196,47 @@
   "signals": [
     {"id": "CHEROKEE_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "04FE"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2020, 2021, 2022] },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "04FE"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2020, 2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_ATF_T", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "051A"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2017, 2021, 2022] },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "051A"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_GEAR_RAW_CNT", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear, raw count"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "1018"}, "freq": 2, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2020, 2021, 2022] },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "1018"}, "freq": 2, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2020, 2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_TCM_TORQUE", "path": "Transmission", "fmt": { "len": 16, "max": 1000, "min": -500, "add": -500, "unit": "newtonMeters" }, "name": "Transmission-reported torque"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2024"}, "freq": 86400, "dbgfilter": { "to": 2013, "years": [2017, 2021, 2022] },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2024"}, "freq": 86400, "dbgfilter": { "to": 2013, "years": [2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_TIRE_SIZE", "path": "Tires", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "millimeters" }, "name": "Tire size"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2102"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2020, 2021, 2022] },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2102"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2020, 2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_GEARBOX_RPM", "path": "Transmission", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "rpm" }, "name": "Gearbox output speed"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2B1B"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2020, 2021, 2022] },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2B1B"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2020, 2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_WSS_RR", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Rear right wheel speed, raw count"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2B1C"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2020, 2021, 2022] },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2B1C"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2020, 2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_WSS_RL", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Rear left wheel speed, raw count"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2B1D"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2020, 2021, 2022] },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2B1D"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2020, 2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_WSS_FR", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Front right wheel speed, raw count"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2B1E"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2020, 2021, 2022] },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2B1E"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2020, 2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_WSS_FL", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Front left wheel speed, raw count"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "F158"}, "freq": 86400, "dbgfilter": { "to": 2013, "years": [2017, 2021, 2022] },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "F158"}, "freq": 86400, "dbgfilter": { "to": 2013, "years": [2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_MODEL_YEAR", "path": "Details", "fmt": { "len": 8, "max": 2225, "add": 2000, "unit": "scalar" }, "name": "Model year"}
   ]},
-{ "hdr": "DA30", "rax": "30", "cmd": {"22": "0885"}, "freq": 0.1, "dbgfilter": { "to": 2013, "years": [2017, 2021, 2022] },
+{ "hdr": "DA30", "rax": "30", "cmd": {"22": "0885"}, "freq": 0.1, "dbgfilter": { "to": 2013, "years": [2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 720, "min": -720, "div": 10, "add": -720, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
@@ -249,11 +249,11 @@
     {"id": "CHEROKEE_FR_VSS", "path": "Movement",    "fmt": {"bix": 176, "len": 16, "max": 4095,                 "div": 16,                               "unit": "kilometersPerHour"      }, "name": "Front right wheel speed"},
     {"id": "CHEROKEE_RR_VSS", "path": "Movement",    "fmt": {"bix": 208, "len": 16, "max": 4095,                 "div": 16,                               "unit": "kilometersPerHour"      }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "DA40", "rax": "40", "cmd": {"22": "1004"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2020, 2021, 2022] },
+{ "hdr": "DA40", "rax": "40", "cmd": {"22": "1004"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2020, 2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_BATT_V_BCM", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "volts" }, "name": "Battery voltage, body computer", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0123"}, "freq": 86400, "dbgfilter": { "to": 2013, "years": [2017, 2021, 2022] },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0123"}, "freq": 86400, "dbgfilter": { "to": 2013, "years": [2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_TID_FL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front left tire sensor id"}
   ]},
@@ -261,7 +261,7 @@
   "signals": [
     {"id": "CHEROKEE_TID_FR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front right tire sensor id"}
   ]},
-{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0125"}, "freq": 86400, "dbgfilter": { "to": 2013, "years": [2017, 2021, 2022] },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0125"}, "freq": 86400, "dbgfilter": { "to": 2013, "years": [2021, 2022] },
   "signals": [
     {"id": "CHEROKEE_TID_RL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear left tire sensor id"}
   ]},

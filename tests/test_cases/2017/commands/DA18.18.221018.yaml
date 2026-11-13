@@ -1,0 +1,5 @@
+command_id: DA18.18.221018
+test_cases:
+- expected_values:
+    CHEROKEE_TCM_TORQUE: -1
+  response: 18DAF1180562101801F3

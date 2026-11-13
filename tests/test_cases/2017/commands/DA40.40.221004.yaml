@@ -1,0 +1,5 @@
+command_id: DA40.40.221004
+test_cases:
+- expected_values:
+    CHEROKEE_BATT_V_BCM: 18
+  response: 18DAF140046210045A
