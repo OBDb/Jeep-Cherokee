@@ -1,0 +1,5 @@
+command_id: DA18.18.222102
+test_cases:
+- expected_values:
+    CHEROKEE_GEARBOX_RPM: 703
+  response: 18DAF118056221020AFC

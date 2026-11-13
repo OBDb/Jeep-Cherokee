@@ -1,0 +1,5 @@
+command_id: DA18.18.22F158
+test_cases:
+- expected_values:
+    CHEROKEE_MODEL_YEAR: 2017
+  response: 18DAF1180762F15811510802

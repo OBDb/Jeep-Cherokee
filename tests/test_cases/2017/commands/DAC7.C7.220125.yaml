@@ -1,0 +1,7 @@
+command_id: DAC7.C7.220125
+test_cases:
+- expected_values:
+    CHEROKEE_TID_RL: 0
+  response: |-
+    18DAF1C7100A620125000000
+    18DAF1C721000F003CAAAAAA
