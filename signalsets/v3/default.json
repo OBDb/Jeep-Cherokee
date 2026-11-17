@@ -251,7 +251,7 @@
   ]},
 { "hdr": "DA40", "rax": "40", "cmd": {"22": "1004"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2020, 2021, 2022] },
   "signals": [
-    {"id": "CHEROKEE_BATT_V_BCM", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "volts" }, "name": "Battery voltage, body computer", "suggestedMetric": "starterBatteryVoltage"}
+    {"id": "CHEROKEE_BATT_V_BCM", "path": "Battery", "fmt": { "len": 8, "max": 40.8, "mul": 4, "div": 25, "unit": "volts" }, "name": "Battery voltage, body computer", "suggestedMetric": "starterBatteryVoltage"}
   ]},
 { "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0123"}, "freq": 86400, "dbgfilter": { "to": 2013, "years": [2021, 2022] },
   "signals": [
