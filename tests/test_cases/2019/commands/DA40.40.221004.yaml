@@ -1,32 +1,32 @@
 command_id: DA40.40.221004
 test_cases:
 - expected_values:
-    CHEROKEE_BATT_V_BCM: 16
+    CHEROKEE_BATT_V_BCM: 12.8
   response: 18DAF1400462100450
 - expected_values:
-    CHEROKEE_BATT_V_BCM: 16.2
+    CHEROKEE_BATT_V_BCM: 12.96
   response: 18DAF1400462100451
 - expected_values:
-    CHEROKEE_BATT_V_BCM: 16.4
+    CHEROKEE_BATT_V_BCM: 13.12
   response: 18DAF1400462100452
 - expected_values:
-    CHEROKEE_BATT_V_BCM: 16.6
+    CHEROKEE_BATT_V_BCM: 13.28
   response: 18DAF1400462100453
 - expected_values:
-    CHEROKEE_BATT_V_BCM: 17.2
+    CHEROKEE_BATT_V_BCM: 13.76
   response: 18DAF1400462100456
 - expected_values:
-    CHEROKEE_BATT_V_BCM: 17.4
+    CHEROKEE_BATT_V_BCM: 13.92
   response: 18DAF1400462100457
 - expected_values:
-    CHEROKEE_BATT_V_BCM: 17.6
+    CHEROKEE_BATT_V_BCM: 14.08
   response: 18DAF1400462100458
 - expected_values:
-    CHEROKEE_BATT_V_BCM: 17.8
+    CHEROKEE_BATT_V_BCM: 14.24
   response: 18DAF1400462100459
 - expected_values:
-    CHEROKEE_BATT_V_BCM: 18
+    CHEROKEE_BATT_V_BCM: 14.4
   response: 18DAF140046210045A
 - expected_values:
-    CHEROKEE_BATT_V_BCM: 18.2
+    CHEROKEE_BATT_V_BCM: 14.56
   response: 18DAF140046210045B
